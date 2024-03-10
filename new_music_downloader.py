@@ -15,7 +15,7 @@ from pytube import YouTube
 BUTTON_COLOR = "#128c7e"
 APPLE_MUSIC_RED_COLOR = "#f94c57"
 BASE_DIR = f'{os.path.dirname(__file__)}/utils'
-RELATIVE_DIR = "/Users/sahinogur/Desktop/mp3" # Please enter your directory mp3 diractory
+RELATIVE_DIR = "" # Please enter your directory mp3 diractory
 
 
 class DownloadThreadPyTube(QThread):
